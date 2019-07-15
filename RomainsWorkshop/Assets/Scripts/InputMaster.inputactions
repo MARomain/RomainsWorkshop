@@ -1,0 +1,90 @@
+{
+    "name": "InputMaster",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "0cc9b835-d822-4dd6-b79e-57c3ade449ee",
+            "actions": [
+                {
+                    "name": "Shoot",
+                    "id": "65767a05-f23c-491a-b07a-1dac7286382a",
+                    "expectedControlLayout": "",
+                    "continuous": false,
+                    "passThrough": false,
+                    "initialStateCheck": false,
+                    "processors": "",
+                    "interactions": "",
+                    "bindings": []
+                },
+                {
+                    "name": "Movement",
+                    "id": "1b5c1346-c17b-4333-86fb-eae012d1791d",
+                    "expectedControlLayout": "",
+                    "continuous": false,
+                    "passThrough": false,
+                    "initialStateCheck": false,
+                    "processors": "",
+                    "interactions": "",
+                    "bindings": []
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2a5f45f3-b42b-4978-b47a-8e7912c36d2e",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": ";Classic Scheme",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false,
+                    "modifiers": ""
+                },
+                {
+                    "name": "",
+                    "id": "201da4ed-b472-4928-aabd-f448e6e20d9a",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": ";Classic Scheme",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false,
+                    "modifiers": ""
+                },
+                {
+                    "name": "",
+                    "id": "25811cc8-b940-4181-9321-04a188f0efcd",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": ";Classic Scheme",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false,
+                    "modifiers": ""
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Classic Scheme",
+            "basedOn": "",
+            "bindingGroup": "Classic Scheme",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

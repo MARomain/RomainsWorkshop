@@ -5,6 +5,7 @@ using UnityEngine;
 public class Script : MonoBehaviour
 {
     public Collider colHead;
+    public float moveSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +29,15 @@ public class Script : MonoBehaviour
             {
                 Destroy(gameObject);
             }
+        }
+    }
+
+
+    public void Move()
+    {
+        if (Input.GetKeyDown("Z"))
+        {
+
         }
     }
 

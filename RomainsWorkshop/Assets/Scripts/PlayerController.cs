@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         Move();
-        InputSwitcher();
+        //InputSwitcher();
         Aim();
     }
 
